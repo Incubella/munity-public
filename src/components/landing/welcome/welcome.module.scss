@@ -1,0 +1,30 @@
+.container {
+  padding: 140px 150px;
+}
+
+.circle {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #10111b;
+}
+
+.btnLaunch {
+  align-self: center;
+}
+
+.launchText {
+  text-transform: uppercase;
+}
+
+.bio {
+  margin-top: -1rem;
+
+  p:last-child {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
