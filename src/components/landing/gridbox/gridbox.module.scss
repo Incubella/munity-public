@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+
+.gridbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../../../public/images/lines.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.leftTop,
+.rightTop,
+.rightBottom,
+.leftBottom {
+  height: 100px !important;
+}
+
+.top {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  right: 50px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  right: 50px;
+}
+
+.leftTop {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.rightTop {
+  position: absolute;
+  top: 50px;
+  right: 110px;
+}
+
+.leftBottom {
+  position: absolute;
+  bottom: 50px;
+  left: 110px;
+}
+
+.rightBottom {
+  position: absolute;
+  bottom: 50px;
+  right: 110px;
+}
+
+.btn {
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+
+  .gridbox {
+    background: none;
+  }
+
+  .top {
+    top: 10px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .bottom {
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .left {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 15px;
+  }
+
+  .right {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 15px;
+  }
+}

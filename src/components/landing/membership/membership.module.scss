@@ -1,0 +1,31 @@
+$main: #e8e9f420;
+
+.container {
+  padding: 50px 110px;
+  background: #10111b;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 40px !important;
+  line-height: 45px !important;
+}
+
+.number {
+  color: gray;
+  font-size: 40px !important;
+}
+
+.box {
+  border: 1px solid $main;
+  padding: 3rem 2rem;
+  background: $main;
+  height: 250px;
+  margin: 2rem 0;
+
+  .head {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

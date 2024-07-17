@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/main",
+      "has": [
+        {
+          "type": "host",
+          "value": "app.munity.ai"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/main",
+      "destination": "https://app.munity.ai/main",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.munity.ai"
+        }
+      ],
+      "permanent": true
+    }
+  ]
+}

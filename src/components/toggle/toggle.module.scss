@@ -1,0 +1,58 @@
+.btn-normal {
+  // width: 40px;
+  height: 40px;
+  margin: 0 !important;
+  padding: 0 !important;
+  @media only screen and (max-width: 40em) {
+    width: 30px;
+    height: 30px;
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.btn-small {
+  min-width: 20px;
+}
+.btn-normal {
+  min-width: 40px;
+  @media only screen and (max-width: 40em) {
+    min-width: 30px;
+  }
+}
+
+// .btn-large {
+//   @media only screen and (min-width: 40em) {
+//     min-width: 104px;
+//   }
+// }
+
+.title-normal {
+  font-size: 16px !important;
+}
+
+.title-small {
+  font-size: 10px !important;
+}
+
+.title-large {
+  font-size: 24px !important;
+}
+
+.myButtonRoot {
+  & [aria-pressed="false"][value="dark"] {
+    background-color: #10111b; // !important should generally be avoided
+    color: #10111b;
+  }
+
+  & [aria-pressed="true"][value="dark"] {
+    color: #fff;
+  }
+
+  & [aria-pressed="false"][value="light"] {
+    background-color: #ffffff;
+    color: #ffffff;
+  }
+}

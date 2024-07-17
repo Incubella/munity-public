@@ -1,0 +1,23 @@
+
+//===================== REGISTER COMMUNITY (at opensea.io market place) ========================
+
+when a user regiters/creates a community at munity.io the smart contract sets 3.5% of royalty for the community created by the
+this means when whenever any user buys nft copies from opensea nft marketplace 3.5% of the listed amount will be sent to creator of the community 
+
+there the amount sent is splitted 2 parts
+* community creator ( gets the 3.5% of the total amount as creator royality) always
+* nft seller (rest of the total amount excluding the 3.5% creator royality)
+
+EXAMPLE:
+
+//===================== BUY/MINT COMMUNITY NFT (at munity.io) ========================
+
+when a user buy copies of a community at munity.io 
+there the amount sent is splitted 2 parts
+* contract owner ( gets the 3.6% of the total amount as platform fee) till now
+* community creator (rest of the total amount excluding the 3.6% platform fee)
+
+EXAMPLE:
+
+
+

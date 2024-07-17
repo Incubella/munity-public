@@ -1,0 +1,57 @@
+.container {
+  padding: 50px 110px;
+  margin-bottom: 2rem;
+
+  p {
+    text-transform: uppercase;
+  }
+}
+
+.section {
+  margin-top: 4rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 40px !important;
+  line-height: 45px !important;
+}
+
+.number {
+  color: gray;
+  font-size: 40px !important;
+}
+
+.leftCircle {
+  margin-right: -70px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.rightCircle {
+  margin-left: -70px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.community {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+}
+
+.row {
+  margin: 1.5rem 0;
+
+  .star {
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+  }
+}

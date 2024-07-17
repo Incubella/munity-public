@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "A2Z-Styra-A-Light";
+  src: local("A2Z-Styra-A-Light"),
+    url("../../../../public/fonts/A2Z-Styra-A-Light.otf") format("truetype");
+}
+
+.container {
+  padding: 50px 110px;
+
+  p {
+    text-transform: uppercase;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 40px !important;
+  line-height: 45px !important;
+}
+
+.number {
+  color: gray;
+  font-size: 40px !important;
+}
+
+.row {
+  margin: 2rem 0;
+
+  .title {
+    flex: 2;
+    margin: 0 3rem;
+  }
+
+  .rowNumber {
+    flex: 2;
+    font-size: 14px;
+    color: gray;
+    font-family: "A2Z-Styra-A-Light" !important;
+  }
+
+  .desc {
+    flex: 8;
+    font-size: 20px !important;
+  }
+}

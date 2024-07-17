@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "A2Z-Styra-A-Light";
+  src: local("A2Z-Styra-A-Light"),
+    url("../../../public/fonts/A2Z-Styra-A-Light.otf") format("truetype");
+}
+
+.logo {
+  @media only screen and (max-width: 40em) {
+    width: 144.804px;
+    height: 32px;
+  }
+}
+
+.container {
+  padding: 3rem 2rem;
+  @media only screen and (max-width: 64em) {
+    padding: 2rem 1.75rem;
+  }
+  @media only screen and (max-width: 40em) {
+    padding: 2rem 0;
+    padding-top: 24px;
+  }
+  background: #10111b;
+}
+
+.top {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  @media only screen and (max-width: 64em) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  max-width: 1510px;
+  margin-left: auto;
+  margin-right: auto;
+  // justify-content: space-between;
+}
+
+.title {
+  font-size: 30px !important;
+}
+
+.description {
+  margin: 2rem 0 !important;
+  @media only screen and (max-width: 40em) {
+    margin: 24px 0 !important;
+    margin-top: 18px !important;
+  }
+  line-height: 19.8px !important;
+}
+
+.social {
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  border: 1px solid rgba(232, 233, 244, 0.1);
+  svg,
+  img {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    svg,
+    img {
+      transform: scale(1.15);
+    }
+  }
+}
+
+.links {
+  margin: 0 !important;
+  p {
+    text-transform: uppercase;
+  }
+
+  div > p {
+    cursor: pointer;
+    margin-top: 1.75rem;
+    @media only screen and (max-width: 40em) {
+      margin-top: 24px !important;
+    }
+  }
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+.bottom {
+  padding-top: 24px;
+
+  div:first-child {
+    p:last-child {
+      margin-left: 2rem;
+    }
+
+    p {
+      cursor: pointer;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    color: #e8e9f4;
+  }
+}
+
+.emailInput {
+  background: rgba(232, 233, 244, 0.062745098) !important;
+  & input {
+    color: #fff !important;
+  }
+}
+
+.subscribe {
+  border-radius: 0 !important;
+  margin-top: 1.5rem !important;
+}
